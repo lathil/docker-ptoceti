@@ -1,0 +1,216 @@
+<repository lastmodified='20141001093946.226'>
+  <resource id='com.google.inject/2.0.0.no_aop' symbolicname='com.google.inject' presentationname='guice' uri='http://repo1.maven.org/maven2/com/google/inject/guice/2.0-no_aop/guice-2.0-no_aop.jar' version='2.0.0.no_aop'>
+    <description>Guice is a lightweight dependency injection framework for Java 5 and above</description>
+    <size>440707</size>
+    <documentation>http://code.google.com/p/google-guice/</documentation>
+    <license>http://www.apache.org/licenses/LICENSE-2.0</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='com.google.inject'/>
+      <p n='presentationname' v='guice'/>
+      <p n='version' t='version' v='2.0.0.no_aop'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.google.inject.name'/>
+      <p n='version' t='version' v='1.2.0'/>
+      <p n='uses:' v='com.google.inject,com.google.inject.binder'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.google.inject.binder'/>
+      <p n='version' t='version' v='1.2.0'/>
+      <p n='uses:' v='com.google.inject'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.google.inject.spi'/>
+      <p n='version' t='version' v='1.2.0'/>
+      <p n='uses:' v='com.google.inject,com.google.inject.binder,com.google.inject.matcher'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.google.inject.matcher'/>
+      <p n='version' t='version' v='1.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.google.inject.util'/>
+      <p n='version' t='version' v='1.2.0'/>
+      <p n='uses:' v='com.google.inject,com.google.inject.spi'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.google.inject'/>
+      <p n='version' t='version' v='1.2.0'/>
+      <p n='uses:' v='com.google.inject.spi,com.google.inject.binder,com.google.inject.matcher,com.google.inject.util'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=com.google.inject)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package com.google.inject;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=com.google.inject.binder)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package com.google.inject.binder;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=com.google.inject.matcher)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package com.google.inject.matcher;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=com.google.inject.name)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package com.google.inject.name;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=com.google.inject.spi)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package com.google.inject.spi;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=com.google.inject.util)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package com.google.inject.util;version="[1.2,2)"</require>
+  </resource>
+  <resource id='com.fasterxml.jackson.core.jackson-annotations/2.2.0' symbolicname='com.fasterxml.jackson.core.jackson-annotations' presentationname='Jackson-annotations' uri='http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.2.0/jackson-annotations-2.2.0.jar' version='2.2.0'>
+    <description>Core annotations used for value types, used by Jackson data binding package.</description>
+    <size>33436</size>
+    <documentation>http://wiki.fasterxml.com/JacksonHome</documentation>
+    <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='com.fasterxml.jackson.core.jackson-annotations'/>
+      <p n='presentationname' v='Jackson-annotations'/>
+      <p n='version' t='version' v='2.2.0'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fasterxml.jackson.annotation'/>
+      <p n='version' t='version' v='2.2.0'/>
+    </capability>
+  </resource>
+  <resource id='com.fasterxml.jackson.core.jackson-core/2.2.0' symbolicname='com.fasterxml.jackson.core.jackson-core' presentationname='Jackson-core' uri='http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.2.0/jackson-core-2.2.0.jar' version='2.2.0'>
+    <description>Core Jackson abstractions, basic JSON streaming API implementation</description>
+    <size>191950</size>
+    <documentation>http://wiki.fasterxml.com/JacksonHome</documentation>
+    <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='com.fasterxml.jackson.core.jackson-core'/>
+      <p n='presentationname' v='Jackson-core'/>
+      <p n='version' t='version' v='2.2.0'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fasterxml.jackson.core'/>
+      <p n='version' t='version' v='2.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fasterxml.jackson.core.io'/>
+      <p n='version' t='version' v='2.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fasterxml.jackson.core.json'/>
+      <p n='version' t='version' v='2.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fasterxml.jackson.core.util'/>
+      <p n='version' t='version' v='2.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fasterxml.jackson.core.base'/>
+      <p n='version' t='version' v='2.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fasterxml.jackson.core.sym'/>
+      <p n='version' t='version' v='2.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fasterxml.jackson.core.type'/>
+      <p n='version' t='version' v='2.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fasterxml.jackson.core.format'/>
+      <p n='version' t='version' v='2.2.0'/>
+    </capability>
+  </resource>
+  <resource id='com.fasterxml.jackson.core.jackson-databind/2.2.0' symbolicname='com.fasterxml.jackson.core.jackson-databind' presentationname='jackson-databind' uri='http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.2.0/jackson-databind-2.2.0.jar' version='2.2.0'>
+    <description>General data-binding functionality for Jackson: works on core streaming API</description>
+    <size>864796</size>
+    <documentation>http://wiki.fasterxml.com/JacksonHome</documentation>
+    <license>http://www.apache.org/licenses/LICENSE-2.0.txt, http://www.gnu.org/licenses/lgpl-2.1.html</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='com.fasterxml.jackson.core.jackson-databind'/>
+      <p n='presentationname' v='jackson-databind'/>
+      <p n='version' t='version' v='2.2.0'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fasterxml.jackson.databind'/>
+      <p n='version' t='version' v='2.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fasterxml.jackson.databind.annotation'/>
+      <p n='version' t='version' v='2.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fasterxml.jackson.databind.cfg'/>
+      <p n='version' t='version' v='2.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fasterxml.jackson.databind.deser'/>
+      <p n='version' t='version' v='2.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fasterxml.jackson.databind.deser.impl'/>
+      <p n='version' t='version' v='2.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fasterxml.jackson.databind.deser.std'/>
+      <p n='version' t='version' v='2.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fasterxml.jackson.databind.exc'/>
+      <p n='version' t='version' v='2.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fasterxml.jackson.databind.ext'/>
+      <p n='version' t='version' v='2.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fasterxml.jackson.databind.introspect'/>
+      <p n='version' t='version' v='2.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fasterxml.jackson.databind.jsonschema'/>
+      <p n='version' t='version' v='2.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fasterxml.jackson.databind.jsonFormatVisitors'/>
+      <p n='version' t='version' v='2.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fasterxml.jackson.databind.jsontype'/>
+      <p n='version' t='version' v='2.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fasterxml.jackson.databind.jsontype.impl'/>
+      <p n='version' t='version' v='2.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fasterxml.jackson.databind.module'/>
+      <p n='version' t='version' v='2.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fasterxml.jackson.databind.node'/>
+      <p n='version' t='version' v='2.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fasterxml.jackson.databind.ser'/>
+      <p n='version' t='version' v='2.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fasterxml.jackson.databind.ser.impl'/>
+      <p n='version' t='version' v='2.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fasterxml.jackson.databind.ser.std'/>
+      <p n='version' t='version' v='2.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fasterxml.jackson.databind.type'/>
+      <p n='version' t='version' v='2.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fasterxml.jackson.databind.util'/>
+      <p n='version' t='version' v='2.2.0'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=com.fasterxml.jackson.annotation))' extend='false' multiple='false' optional='false'>Import package com.fasterxml.jackson.annotation</require>
+    <require name='package' filter='(&amp;(package=com.fasterxml.jackson.core))' extend='false' multiple='false' optional='false'>Import package com.fasterxml.jackson.core</require>
+    <require name='package' filter='(&amp;(package=com.fasterxml.jackson.core.base))' extend='false' multiple='false' optional='false'>Import package com.fasterxml.jackson.core.base</require>
+    <require name='package' filter='(&amp;(package=com.fasterxml.jackson.core.format))' extend='false' multiple='false' optional='false'>Import package com.fasterxml.jackson.core.format</require>
+    <require name='package' filter='(&amp;(package=com.fasterxml.jackson.core.io))' extend='false' multiple='false' optional='false'>Import package com.fasterxml.jackson.core.io</require>
+    <require name='package' filter='(&amp;(package=com.fasterxml.jackson.core.json))' extend='false' multiple='false' optional='false'>Import package com.fasterxml.jackson.core.json</require>
+    <require name='package' filter='(&amp;(package=com.fasterxml.jackson.core.type))' extend='false' multiple='false' optional='false'>Import package com.fasterxml.jackson.core.type</require>
+    <require name='package' filter='(&amp;(package=com.fasterxml.jackson.core.util))' extend='false' multiple='false' optional='false'>Import package com.fasterxml.jackson.core.util</require>
+    <require name='package' filter='(&amp;(package=javax.xml.datatype))' extend='false' multiple='false' optional='false'>Import package javax.xml.datatype</require>
+    <require name='package' filter='(&amp;(package=javax.xml.namespace))' extend='false' multiple='false' optional='false'>Import package javax.xml.namespace</require>
+    <require name='package' filter='(&amp;(package=javax.xml.parsers))' extend='false' multiple='false' optional='false'>Import package javax.xml.parsers</require>
+    <require name='package' filter='(&amp;(package=org.w3c.dom))' extend='false' multiple='false' optional='false'>Import package org.w3c.dom</require>
+    <require name='package' filter='(&amp;(package=org.w3c.dom.bootstrap))' extend='false' multiple='false' optional='false'>Import package org.w3c.dom.bootstrap</require>
+    <require name='package' filter='(&amp;(package=org.w3c.dom.ls))' extend='false' multiple='false' optional='false'>Import package org.w3c.dom.ls</require>
+    <require name='package' filter='(&amp;(package=org.xml.sax))' extend='false' multiple='false' optional='false'>Import package org.xml.sax</require>
+  </resource>
+</repository>
