@@ -1,4 +1,4 @@
-FROM lathil/docker-felix
+FROM lathil/rpi-docker-felix
 MAINTAINER laurent Thil <lathil.dev@gmail.com>
 
 # Add additional repositories
