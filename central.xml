@@ -1,4 +1,92 @@
 <repository lastmodified='20141001093946.226'>
+  <resource id='com.google.guava/17.0.0' symbolicname='com.google.guava' presentationname='Guava: Google Core Libraries for Java' uri='http://repo1.maven.org/maven2/com/google/guava/guava/17.0/guava-17.0.jar' version='17.0.0'>
+    <description>Guava is a suite of core and expanded libraries that include    utility classes, google&apos;s collections, io classes, and much    much more.    Guava has only one code dependency - javax.annotation,    per the JSR-305 spec.</description>
+    <size>2243036</size>
+    <license>http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='com.google.guava'/>
+      <p n='presentationname' v='Guava: Google Core Libraries for Java'/>
+      <p n='version' t='version' v='17.0.0'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.google.common.net'/>
+      <p n='version' t='version' v='17.0.0'/>
+      <p n='uses:' v='javax.annotation,com.google.common.base,com.google.common.hash,com.google.common.io,com.google.common.primitives,com.google.common.collect,com.google.common.escape'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.google.common.html'/>
+      <p n='version' t='version' v='17.0.0'/>
+      <p n='uses:' v='com.google.common.escape,javax.annotation'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.google.common.collect'/>
+      <p n='version' t='version' v='17.0.0'/>
+      <p n='uses:' v='com.google.common.base,javax.annotation,com.google.common.primitives,com.google.common.math'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.google.common.primitives'/>
+      <p n='version' t='version' v='17.0.0'/>
+      <p n='uses:' v='com.google.common.base,javax.annotation,sun.misc'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.google.common.base'/>
+      <p n='version' t='version' v='17.0.0'/>
+      <p n='uses:' v='javax.annotation'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.google.common.escape'/>
+      <p n='version' t='version' v='17.0.0'/>
+      <p n='uses:' v='com.google.common.base,javax.annotation'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.google.common.cache'/>
+      <p n='version' t='version' v='17.0.0'/>
+      <p n='uses:' v='com.google.common.collect,com.google.common.util.concurrent,javax.annotation,com.google.common.base,com.google.common.primitives,sun.misc'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.google.common.eventbus'/>
+      <p n='version' t='version' v='17.0.0'/>
+      <p n='uses:' v='com.google.common.collect,com.google.common.cache,javax.annotation,com.google.common.base,com.google.common.util.concurrent,com.google.common.reflect'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.google.common.util.concurrent'/>
+      <p n='version' t='version' v='17.0.0'/>
+      <p n='uses:' v='com.google.common.base,javax.annotation,com.google.common.collect,com.google.common.primitives,com.google.common.math'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.google.common.hash'/>
+      <p n='version' t='version' v='17.0.0'/>
+      <p n='uses:' v='com.google.common.primitives,com.google.common.base,javax.annotation,com.google.common.math'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.google.common.io'/>
+      <p n='version' t='version' v='17.0.0'/>
+      <p n='uses:' v='javax.annotation,com.google.common.base,com.google.common.math,com.google.common.hash,com.google.common.collect,com.google.common.primitives'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.google.common.xml'/>
+      <p n='version' t='version' v='17.0.0'/>
+      <p n='uses:' v='com.google.common.escape,javax.annotation'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.google.common.reflect'/>
+      <p n='version' t='version' v='17.0.0'/>
+      <p n='uses:' v='javax.annotation,com.google.common.base,com.google.common.collect,com.google.common.primitives'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.google.common.math'/>
+      <p n='version' t='version' v='17.0.0'/>
+      <p n='uses:' v='com.google.common.base,com.google.common.primitives,javax.annotation'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.google.common.annotations'/>
+      <p n='version' t='version' v='17.0.0'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=javax.annotation))' extend='false' multiple='false' optional='true'>Import package javax.annotation;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.inject))' extend='false' multiple='false' optional='true'>Import package javax.inject;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=sun.misc))' extend='false' multiple='false' optional='true'>Import package sun.misc;resolution:=optional</require>
+  </resource>
   <resource id='com.google.inject/2.0.0.no_aop' symbolicname='com.google.inject' presentationname='guice' uri='http://repo1.maven.org/maven2/com/google/inject/guice/2.0-no_aop/guice-2.0-no_aop.jar' version='2.0.0.no_aop'>
     <description>Guice is a lightweight dependency injection framework for Java 5 and above</description>
     <size>440707</size>
