@@ -7,6 +7,7 @@ obr:deploy -s 'com.fasterxml.jackson.core.jackson-core';
 obr:deploy -s 'com.fasterxml.jackson.core.jackson-databind';
 obr:deploy -s 'com.fasterxml.jackson.core.jackson-annotations';
 obr:deploy -s 'com.google.inject';
+obr:deploy -s 'com.google.guava';
 obr:deploy -s 'org.restlet';
 obr:deploy -s 'org.restlet.ext.servlet';
 obr:deploy -s 'org.restlet.ext.osgi';
